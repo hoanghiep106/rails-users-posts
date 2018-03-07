@@ -10,4 +10,12 @@ class StaticPagesController < ApplicationController
   def contact
     render template: 'static_pages/contact'
   end
+
+  def login
+    render template: 'static_pages/login'
+  end
+
+  def register
+    render template: 'static_pages/register'
+  end
 end
